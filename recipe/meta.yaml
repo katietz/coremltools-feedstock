@@ -39,7 +39,7 @@ requirements:
     - tqdm
     - packaging
   run_constrained:
-    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx]
+    # - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx]
     - pytorch >=1.4,<1.7
 
 test:
